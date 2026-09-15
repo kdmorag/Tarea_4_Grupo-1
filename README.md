@@ -14,10 +14,9 @@ Haz clic derecho dentro del archivo y selecciona Open with Live Server.
 El juego se abrirá automáticamente en el navegador. También puedes iniciarlo con el botón Go Live que aparece en la esquina inferior derecha de Visual Studio Code.
 
 
-Para detener el servidor de la terminal, presiona Ctrl+C.
 
 Librería Phaser
-Este juego utiliza Phaser, una librería de JavaScript para crear videojuegos en el navegador. La librería ya está guardada dentro de la carpeta vendor/phaser, por lo que (NO) es necesario instalar dependencias ni ejecutar npm install. Live Server solamente se utiliza para abrir y probar el juego fácilmente desde Visual Studio Code.
+La librería ya está guardada dentro de la carpeta vendor/phaser, por lo que (NO) es necesario instalar dependencias ni ejecutar npm install. Live Server solamente se utiliza para abrir y probar el juego fácilmente desde Visual Studio Code.
 
 ## Integrantes
 
