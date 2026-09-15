@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataformas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="vendor/phaser/phaser.min.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Items.js"></script>
+    <script src="js/Hud.js"></script>
+    <script src="js/Mundo1.js"></script>
+</head>
+<body>
+<div class="row">
+    <div class="content-l">
+        <div class="content-info">
+            <p class="grupo">Grupo #1</p>
+            <h2>Integrantes del equipo</h2>
+            <ul>
+                <li>Jhonny Eduardo Bermudez Zambrano</li>
+                <li>Darwin David Gallegos Barba</li>
+                <li>Kevin Daniel Mora Gonzalez</li>
+                <li>Cristopher Alexander Ruiz Cordova</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-r">
+        <h1>Tarea #4</h1>
+        <div id="canvas"></div>
+    </div>
+</div>
+<script>
+    // Configuración principal de Phaser: tamaño, escena, contenedor y física Arcade.
+    const gameconfig = {
+        type: Phaser.AUTO,
+        width: 500,
+        height: 500,
+        scene: [Mundo1],
+        parent: "canvas",
+        scale: {
+            mode: Phaser.Scale.FIT,
+            autoCenter: Phaser.Scale.CENTER_BOTH
+        },
+        physics: {
+            default: "arcade",
+            arcade: {
+                gravity: { y: 500 },
+                debug: false
+            }
+        },
+    }
+
+    // Inicia el juego después de cargar Phaser y las clases de la escena.
+    const game = new Phaser.Game(gameconfig);
+</script>
+</body>
+</html>
