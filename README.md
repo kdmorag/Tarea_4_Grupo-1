@@ -19,9 +19,6 @@ Para detener el servidor de la terminal, presiona Ctrl+C.
 Librería Phaser
 Este juego utiliza Phaser, una librería de JavaScript para crear videojuegos en el navegador. La librería ya está guardada dentro de la carpeta vendor/phaser, por lo que (NO) es necesario instalar dependencias ni ejecutar npm install. Live Server solamente se utiliza para abrir y probar el juego fácilmente desde Visual Studio Code.
 
-Desarrollado por: Kevin Mora
-```
-
 ## Integrantes
 
 - Jhonny Eduardo Bermudez Zambrano
